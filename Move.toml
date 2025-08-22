@@ -1,0 +1,15 @@
+[package]
+name = "Multi-Center-Study-Coordination"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x5410b01462fff291c8ecb1f72fe7b5d06d1e2e25180eba9a86a78b0d507e3f16"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
